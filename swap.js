@@ -19,7 +19,7 @@ function getRandomInt(min, max) {
 
 // Helper to get a random amount (1-2 ZIGs, in micro units)
 function getRandomAmount() {
-  return getRandomInt(0.01 * 100, 2 * 100) * 10_000; // 0.01 to 2 ZIGs, step 0.01
+  return getRandomInt(0.0001 * 100, 0.001 * 100) * 10_000; // 0.01 to 2 ZIGs, step 0.01
 }
 
 // Helper to get a random private key from the array
